@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { createObjectCsvWriter } = require('csv-writer');
 
-// Sample trade data (you can later read this from a CSV/DB)
+// Sample trade data
 // JSON
 const trades = [
   {
