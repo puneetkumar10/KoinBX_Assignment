@@ -1,0 +1,41 @@
+(base) puneetkumar@Puneets-MacBook-Pro Task_1 % node mm_bot.js
+Market Price: 30000 USDT
+Buy: 29925 USDT | Sell: 30075 USDT
+Market Price: 29967.16 USDT
+Market Price: 29927.74 USDT
+Market Price: 29952.07 USDT
+Market Price: 29965.56 USDT
+Market Price: 29930.83 USDT
+Market Price: 29978.56 USDT
+Market Price: 29984.83 USDT
+Market Price: 30025.02 USDT
+Price moved too much, canceling old orders...
+Buy: 29949.96 USDT | Sell: 30100.08 USDT
+Market Price: 30001.38 USDT
+Market Price: 29993.65 USDT
+Market Price: 30011.57 USDT
+
+
+------------------------------------------------------------------------------------------------------------
+•	Bid at 29925 (0.25% below)
+•	Ask at 30075 (0.25% above)
+Total spread = 0.5%
+------------------------------------------------------------------------------------------------------------
+Market Price: 29967.16 USDT
+Market Price: 29927.74 USDT
+...
+Nothing happens here .. since market price is not enough to cancel or re-quote
+------------------------------------------------------------------------------------------------------------
+Market Price: 30025.02 USDT
+Price moved too much, canceling old orders...
+Buy: 29949.96 USDT | Sell: 30100.08 USDT
+The price moved more than the allowed priceBandPercent (0.25%).
+
+•	Cancels stale quotes
+•	Recalculates new bid/ask based on the updated price
+•	Places new orders at:
+•	Bid: 29949.96
+•	Ask: 30100.08
+------------------------------------------------------------------------------------------------------------
+
+
